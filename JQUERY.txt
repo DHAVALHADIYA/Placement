@@ -1,0 +1,17 @@
+JQUERY 
+
+-> it's a library of javascript
+-> jQuery is to make it much easier to use JavaScript on your website.
+-> jQuery is a lightweight, "write less, do more"
+-> jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+-> here asyncrounis behavior of js used by callbacks;
+-> $ == jquery
+-> select element -> apply event --> run event
+-> $("element").onsubmit(() => {});
+-> jquery also used chaining call (one after another event is run in chaining way)
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
