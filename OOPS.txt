@@ -1,0 +1,99 @@
+OOPS :
+      
+     -> based on real world problem to solve difficult problem in simple way
+     -> based on object orianted
+     -> pure OOPS -> a lang is only based on object
+     -> java is not pure oops ( static keyword is used using which without obj anything is used)
+    
+    -> class is blueprint -> not physical (it's a logical entity) --> not require memory  
+
+    ->So the blueprint of this car we can say that this refers to class.
+
+    ->And the actual car would refered as object in OOP. And entity that has been developed by keeping in mind of blueprint is termed as an object.
+
+This keyword :-
+    -> ‘this’ keyword in Java that refers to the current instance of the class. In OOPS it is used to: 
+        -> pass the current object as a parameter to another method.
+        -> refer to the current class instance variable.
+        -> this keyword refer to current obj of class.
+
+
+Constructors :-
+    ->The constructors are like functions in java which is used to create an instance of class. They dont have any return type and their names are same as class name. They just constructs the objects.
+    -> no return type -> used for initialised value of object of class -> special function -> called whenever obj of class is created -> multiple constructor is there -> if no user define con then by default con is created when create obj
+
+Polymorphism :-  many way to represent single entity
+    ->Polymorphism means many forms. It is the ability by which we can display message in more than one form. There are two types of polymorphism 
+        -> function overloading (compile time polymorphism) -> static polymorphism
+        -> function overidding (run-time polymorphism) -> dynamic polymorphism -> used inheritence
+
+    ->We need polymorphism because ...
+
+    ->The function overloading means we can write the functions with names but with different parameters and return type.
+
+    -> Runtime polymorphism is also known as dynamic polymorphism. Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class.
+
+Inheritance :- used for resuablitity of code -> performance inc
+    ->Inheritance - When one class want to have same properties that a second class possess than we can inherit that properties in first class. This is known as Inheritance. We need Inheritance because it reduces the lines of code.
+
+    -> There are 4 types of inheritance 
+        -> Single Level inheritance
+        -> Multi Level inheritance
+        -> Hierarchical Level inheritance
+        -> Hybrid Level inheritance
+        -> The multiple inheritance is not supported in java to prevent it from ambigous. If there are same methods in two different classes and both the class are inherited by some other class than at the time of compiling the compiler would be confused which method to run. So to avoid this conflicts the java does not support Multiple inheritance.
+
+Packages  -> similar to file structure 
+    -> The packages is a container which contains same type of class. eg- Package of Pen, Eraser etc.
+
+    -> There are two types of packages in java 
+        -> Built-In packages - These packages are those which are already build in java.
+        -> User-Defined packages - These are the packages which are defined by the user.
+
+Access Modifiers -> define access level of var class or method 
+    -> The acces modifiers specifies the scope of method, properties, class and constructors.
+
+    -> There are four types of access modifiers
+        -> Public
+        -> Protected
+        -> Default
+        -> Private
+
+        Modifiers       Class       Package         Subclass        World
+        - Public         Yes           Yes              Yes          Yes
+        - Protected      Yes           Yes              Yes          No
+        - Default        Yes           Yes              No           No
+        - Private        Yes           No               No           No
+
+        -> Here Class means in same class
+        -> Here package means in same package
+        -> Here subclass means in different package where the class is inherited
+        -> Here world means all other than subclass, package and class
+
+Encapsulation -> data hiding or data binding  (implement by access modifier)
+    -> The encapsulation means binding data into one part. Here we do it by binding in a class. Also the data hiding is done through access modifiers.
+    -> The way of wrapping or combining the properties and methods into a single entity called class is known as encapsulation.
+    -> There is a restricted access to some components of objects in encapsulation. 
+
+Abstraction -> hide unneccery infor and show only essential infor
+    ->  The data abstraction is the process by which we can define an abstract blue print.
+    -> The abstraction is a concept which hides the internal implementation of an object and it only shows the necessary features of the object.
+    -> It is mainly focused upon what it do rather than how will it do.
+
+    -> This is achieved by two ways:-
+        -> Abstract Class 
+        -> Interfaces - It is an abstract "class" that is used to group related methods with "empty" bodies.
+
+        -> Abstract Class:- An abstract class must be declared with an abstract keyword.It can have abstract and non-abstract methods. It cannot be instantiated. It can have constructors and static methods also. It can have final methods which will force the subclass not to change the body of the method.
+        
+        -> Interfaces:- All the fields in interfaces are public, static and final by default. All methods are public & abstract by default. A class that implements an interface must implement all the methods declared in the interface. Interfaces support the functionality of multiple interface. 
+            -> The multiple interface is supported in java because in interface we just define the properties and methods but the actual implementation is done in the implemented class. So no chance of ambiguity.
+
+static -> it's same or common for all the obj of class    -> static block is run before main method -> called without obj
+    -> Static keyword means all the methods and properties would be same throughout the package.
+    -> If any method or property whose value is same for all objects than we can make it static.
+    -> It can be accessed in main class as class.property_name.
+    -> The static block is used to initialize the static data member. It is excuted before main method at the time of class loading.
+
+Super -> refer to super or parent class;
+    -> The super keyword is used to access the members of the super class.
