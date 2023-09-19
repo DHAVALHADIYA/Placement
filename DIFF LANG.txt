@@ -1,0 +1,11 @@
+different types of langauge in programming
+
+1 markup lang  --> html , xml
+2 complie lang --> c  , c++
+3 interpreted lang --> python , ruby
+4 object orianted lang --> java
+5 functional lang 
+6 procedural lang 
+7 high level lang --> java python
+8 low level lang --> assembly , machine , c
+9 scripting lang --> js 

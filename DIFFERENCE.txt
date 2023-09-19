@@ -1,0 +1,120 @@
+1   list vs set 
+ list -> list contain duplicate valus
+ set -> set can't contain duplicate values
+
+ list -> insertion order is maintain
+ set -> not guaranteed that it is maintain
+
+2 put vs patch (http requst)
+  put --> for update a whole data (if exit other vise doc is created)
+  patch -> for update a partial data ( from exiting data)
+ 
+  put --> whole data (all the field is sent over network) either update or new doc create
+  patch --> only that data sent over network which is update
+
+3 primary key vs composite key 
+  both are doing same things
+  -> primary key is made of one column
+  -> composite key is made of 2 or more than 2  column
+
+both are used for find a data or doc or row unique way  (for access those key is used)
+
+4 complier vs interpreter 
+
+both are used for convert source code to machine code
+
+  -> complier convert whole program at a time to source code to machine code
+  -> interpreter convert line by line at a time to source code to machine code
+
+  -> compiler not executed if error is occurs in program
+  -> partial execuation is done until error not occured in progam
+
+  -> faster execution in complier
+  -> slow then complier in interpreter 
+
+  -> c , c++
+  -> python , java
+
+5 java vs js
+   
+   -> java is object orianted programming lang
+   -> js is object orianted scripting lang
+
+   -> java run on JVM and browser
+   -> run on browser and now also on server side 
+
+   -> java is mostly used in server side
+   -> js is mostly used in both side 
+
+6 stack vs queue
+
+   -> stack --> one side operation is only allow ( insert + delete both from one side)
+   -> queue --> both side operation is allow (insert + delete both are perform from oposite side)
+  
+   -> stack LIFO OR FILO
+   -> queue FIFO OR LILO
+
+   -> used with DFS -> backtracking is there 
+   -> used with BFS
+
+   -> stack --> push or pop
+   -> queue --> enqueue or dequeue
+
+   -> stack not futher type
+   -> queue --> further type (dequeue , circuler queue or priority queue)
+
+7  hasing vs encryption
+  both are used for security purpose
+
+ -> hasing --> hash function is used
+ -> encryption --> algoritham + secret key is used 
+ 
+ -> hasing --> one way property
+ -> encry --> two way property 
+ 
+ -> hashing -> compare for check authentication
+ -> encryp --> decode the enc word using decryption algorithams
+
+ -> use to store in db
+ -> use to travel data on network
+
+ -> more secure 
+ -> less secure
+
+8 Array vs linked list
+   both are linear ds to store data of same types
+ 
+ -> array are fixed size 
+ -> linkedlist is dynamic 
+
+ -> array is continuoes ds 
+ -> linked list is not continoues ds
+
+ -> memory is allocated at compile time 
+ -> memory is allocated at runtime
+
+ -> elemnt is access based on index directly 
+ -> cannot access direct
+ 
+ -> insert and dlt opreation is slower
+ -> faster 
+
+ -> index is there 
+ -> not there 
+
+9 static polymorphism vs dynamic polymorphism
+  both are types of polymorphism
+ 
+ -> spm -> compiler time pm
+ -> dpm -> runtime pm also called
+
+ -> implement by using method overloading
+ -> implement by using method overriding
+
+ -> inheritence is not req
+ -> inheritence is req for implement 
+
+ -> slower 
+ -> faster 
+
+10  
