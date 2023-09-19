@@ -1,0 +1,9 @@
+JS 
+
+-> js is lightweight lang ( give logic to website ) 
+-> frontend + backend both side used
+-> supported by all browser (browser compitable)
+-> js is single thread lang but it's behaviors is asyncronios (non blocking lang)
+-> call stack --> all the function is call here 
+-> stack overflow - error ---> due to recursion call 
+-> 

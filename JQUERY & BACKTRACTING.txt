@@ -15,3 +15,23 @@ $(document).ready(function(){
     $("p").hide();
   });
 });
+
+
+
+
+what is backtracking?
+it is a algoritham used by java or dsa to solve any problem
+for backtracing also recursion is used for solve 
+
+in backtracking we track until condition is not false once condition is false then we do backtrack and solve another way
+ 
+--> backtracking is used to find all the possible solution of the problem
+-> all the possible combination is try 
+-> based on trial and error concept
+
+
+
+----> it may give or not give optimal solution .. that's not gareented that is gives optimal solution 
+-> used for find out all possible solution
+
+example :::: N-queens problem
