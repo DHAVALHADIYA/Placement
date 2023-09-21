@@ -1,0 +1,241 @@
+JS 
+
+-> js is lightweight lang ( give logic to website ) 
+-> frontend + backend both side used
+-> supported by all browser (browser compitable)
+-> js is single thread lang but it's behaviors is asyncronios (non blocking lang)
+-> call stack --> all the function is call here 
+-> stack overflow - error ---> due to recursion call 
+
+
+JAVA
+
+1 what is jit?
+--> jit means just in time used with JVM for effiencncy increase execution
+--> JIT is comipler used in java 
+--> is there is multiple number of call for same function then by using JVM again and again comipler run it so performance is down
+--> JIT is used with JVM and its a complier used in java
+
+
+2 what is classloader 
+-> it's a first file which is load whenever we run any java program
+-> classloader is integreated with JVM
+-> whenever java program want to run then classloader is load java program into JVM for execution
+
+3 which types of memory allocation is available in java ?
+
+             ->>>>>>>> 1 class memory 2 heap memory 3 stack memory
+
+4 static public void main () this fun is run ? after exchange position in this way ?
+  --> yes it will run  bcz there is not order is specify for access specifiar (order is not important for access specifiar)
+
+5 what is default value stored in local variable?
+
+--> The local variables do not have any default values in Java.
+--> if we try to access that var which is only declare not defined then it will give an error.
+
+--> but for globle var it will be null or 0 or 0.0 depend on var types 
+
+6 import java.util.*;
+
+public class arrayclone {
+
+    static public void main(String[] args) {
+        System.out.println("dhaval" + 100 + 100); // output is dhaval100100
+        System.out.println(100 + 100 + "dhaval"); // 200dhaval
+    }
+
+}
+  ---> int + double = double
+  --> int + string = string
+
+        System.out.println("dhaval" - 100 - 100); // it will give an error
+        System.out.println(100 - 100 + "dhaval");  // 0dhaval
+
+7 what is an association in java
+   ---> diff b/t inheritance and association  
+
+   -------> both are used for define a relationship between differeance classes in java 
+ 
+--> association means relationship or connection between two diff classes in java (has a relation)  --> farari car has a engine and breaksystem (engine and breaksystem)      
+
+inheritance also define a relaitonship between two different class ( is a relation)  for example -----> a farari car is a car (2 class for one is farari and another is car)
+
+8 what is copy constructor
+
+---> copy constructor is constructor in which object of that class is pass as argument for initialsed value of that class 
+
+class is dhaval----> dhaval(dhaval obj)--> initialised value of class
+
+    example -->
+
+class Person {
+	private String name;
+	private int age;
+
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	public Person(Person another) {
+		this(another.name, another.age);
+	}
+
+	// Getters and setters for the instance variables
+}
+    ---> in psvm---> obj1 is passed in person 
+
+--> copy of one constructor is passed as an argument to another constructor 
+
+9    what is marker interface in java
+
+--? an interface without body or interface which is an empty is called marker interface
+
+10 what is an object cloning
+
+--> to create a new object which is similar to that object and has a same functionality of that object 
+--> it's a process to creating a new object from exiting object which has same functionality and it a simiar to that object
+
+--> clone() built in fun is provided by java for cloning a object 
+
+11 java is pure or complate object orianted programming ? justify ans ?
+
+---> no java is not pure oop ---> bcz in java used static key word with method or var---> so using that keyword without any object creation we can called any var or method
+--> but in pure oop it's only based on object ----> everything in pure oop is an object
+
+--> Smalltalk is a lang which is pure oop
+
+12 what is wrapper class in java ?
+---> A Wrapper class in Java is a class whose object wraps or contains primitive data types
+---> all primitive data types have wrapper class in java
+---> obj of that wrapper class contain a value of primitive data types
+
+13 define singleton class ?
+--> a class which have only one object is called singleton class 
+
+--> when you define a constructor of class as private then you can create only one object of that class   --> define there var value
+if we create a multiple obj of that singleton class then all the obj is refer to same add in heap
+
+14 what is package in class 
+--> package is nothing but collection of diff classes and interface and all library
+--> interface is nothing but similar to class 
+--> it's represent a tree like hirachchry stucture like fs
+--> similar to file system
+
+15 pointer are used in java ?
+--> pointer are special types of variable used for refer a address of another var
+--> not used   -> JVM is take care of memory management in java  --> you can't access a memory directly in java 
+
+16 difference between instance and object
+---> instance and object both are same in java
+
+17 difference between instance var and local var in java ?
+---> instance var is an object of that class  ---> obj contain a ref value of that class
+---> local var is a variable define in block or method or class which contain value of primitive data types
+
+18 what is java string pool
+
+--> string pool is availble in java heap memory
+--> string pool contain collection of string
+--> if we create a new string and the value is avilable in that string pool then that new string also refer to that exiting string otherwise new string is created
+
+19 what is exception
+
+--> exception is a unwanted event which is occurs during the runtime or executin time and stop flow of execution of program 
+
+--> solve by using try catch or finally keyword...
+
+20 what is final keyword in java ?
+
+--> final keyword is predefine keyword used in java
+--> if we make a variable as a final then thourghout the program we cannot change the value of that var
+
+21 what happend if main method is not static ?
+
+--> the program will give an error bcz the main method is a first one which is run first or called first when program is run and
+ if the main method is not static then without create an object of main method we can't access it so that why it qill give an error
+--> first time if main method is not called than not any other method is called and without any object not any non static method will called
+
+
+22 is this possible that there is multiple main method is there?
+yes is this possible that there is multiple main method is there in program ---> but one condition that both method must have differenet parameter or different return types
+
+
+23 without main method your program is run ?
+
+no without any main method program is not run -> it will give an error
+
+24 what is jdk?
+--> java developement kit ---> it's a used for develop any java program
+-> JDK = JVM + JRE + LIBRARY + TOOLS + JIT
+--> it is one types of package 
+
+25 access specifiar 
+--> define access level or scope of var or method or class or constructor 
+--> used for implement a encapsulation
+--> default , private , protected , public
+-> public --> everywhere
+--> default --> inside package same
+--> private -> in same class
+--> protected --> same package everywhere --> different package by using inheritence
+
+26 can constructor return any value ?
+--> no constructor cannot return any thing bcz in it's delcaration we cannot define any retun type
+--> implicitly it will return current instace or object of class but explicitly it will not return anything
+
+27 this keyword in java ?
+--> this keyword in java is a special reserved keyword 
+--> it is refer to current object of class
+--> it is a refernce keyword
+-> it is refer to current class --> method or var or constructor
+--> it is refer to var or method or constru or instace of that class
+
+why this keyword is used ??
+==> to remove a confusion
+b/t class var and local var of constructor
+
+28 super keyword?
+--> similar to this also refrence keyword
+-> super keyword is refer to superclass of a class in which super keyword is used
+--> used for called a constructor of super class
+--> The super keyword refers to superclass (parent) objects
+--> super keyword if refer to super class
+using super keyword we can access a var or method or con of super class
+
+29 can we overload a static method ?
+--> yes we can
+
+30 what is dynamic method dispatch
+
+--> it's a late binding process where the method is called at runtime or executed at runtime
+--> A and B is class and B is inheritence class  A 
+
+if A ab = new B(); we used this then this is called dynamic mathod dispatch
+
+method overriden is called at runtime 
+
+-> also called as run time polymorphism
+
+31 delete is faster in linked list then array ?
+yes is this true in linkedlist we only have to delate a a connection 
+but in array if we dlt any element then left shift of other element is req
+
+32 what is thread in java ?
+--> thread in java is a direction or a path using which we can  executed our program.
+in each program at least one thread is there that is main method
+
+-> thread is a direction or path for program execution
+
+each and every program has atleast one thread
+
+33 life cycle of thread 
+--> create , runnable , running , blocked , dead
+
+34 
+
+
+
+
+
+
