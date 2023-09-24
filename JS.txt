@@ -1,0 +1,53 @@
+JS 
+
+-> js is lightweight lang ( give logic to website ) 
+-> frontend + backend both side used
+-> supported by all browser (browser compitable)
+-> js is single thread lang but it's behaviors is asyncronios (non blocking lang)
+-> call stack --> all the function is call here 
+-> stack overflow - error ---> due to recursion call 
+
+
+Browser only understand the html css and js
+
+--> each and every browser have java script engine (V8)
+
+what is v8 engine ? --> it's a java script engine used for complile js into machine code -> process java script
+
+what js ? scripting lang --> makes website dynamic and itreactive 
+why scripting lang --> bcz work with scripting lang --> js is lightweight 
+
+html + css ==> static website
+
+what is data types ----> data types of any var is define the that which types of value can store a var
+in js let var and const types var is there
+
+--> types of object in js ---> boolean , number , string , date , math , regular expresion , array, null , undefined 
+
+primitives data types in java script is immutable
+
+
+Primitive data types are basic and include such values as integers, boolean, characters and other simple stored memory types. Nonprimitive data types are more complex values such as strings, objects, function ,  and arrays.
+primitive data types further cannot devided into primitive
+
+what is scope ?
+scope define a access level of any var   --> 2 types of scope  ---> 1 is local scope and 2 globle scope
+
+var --> both possible  --> function level scope
+let --> redeclare not possible butreassign possible ---> block level scope
+const --> both not possible
+
+for ---> code is again and again run for specific number of time---> used when how many time loops is run that know previously
+while --> run until base condition is not false or run until based condition is true
+do while --> similar to while loop but this loop ensure that at least one time this loop is run
+
+for_of and for_in loop ---> both are special types of loops used in js for similar work
+---> for_of loops is used for array and string
+--> for_in loops is used for object
+-- for_each loops also used for array and string  --> used to pick each and every element from array and perform some work for each and every elmenent
+
+
+
+
+
+

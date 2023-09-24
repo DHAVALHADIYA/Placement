@@ -46,6 +46,9 @@ both are used for convert source code to machine code
    -> java is mostly used in server side
    -> js is mostly used in both side 
 
+   -> java is strick data types define lang
+   -> js is looslly data types define lang
+
 6 stack vs queue
 
    -> stack --> one side operation is only allow ( insert + delete both from one side)
@@ -117,4 +120,19 @@ both are used for convert source code to machine code
  -> slower 
  -> faster 
 
-10  
+10  primitive data types vs non primitive data types
+--> primitive data types hold a simple value
+--> non pd hold a complex value
+
+--> pdt futher can not devided 
+--> npdt futher devided into primitive
+
+--> pdt only hold single value
+--> npdt can hold multiple value
+
+--> int , char , boolean 
+--> array , object , string
+
+--> primitive data types are immutable 
+--> non primitive dt are muttalbe
+

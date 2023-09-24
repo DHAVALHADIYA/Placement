@@ -1,0 +1,31 @@
+DSA <====================>
+
+1 why data stucture is used ? why do you learn data structures ? what's the benefits of it?
+
+-->  DSA provides algorithams by using which you can solve your problem in effiecene way
+--> used to store and manage your data using dsa
+--> ds is used in real life everywhere 
+--> used for solve real world problem
+--> play crusiol role for solving real world problem
+
+Data Structures are necessary for designing efficient algorithms.
+it is also used for building a effiecnce algorithm
+Using appropriate data structures can help programmers save a good amount of time while performing operations such as storage, retrieval, or processing of data.
+Manipulation of large amounts of data is easier.
+
+for example ::--> binary search algorithm
+
+2 what is data structure
+--> it's not a programming lang
+--> it is used with programming lang
+
+--> it's a just concept to manage and store your data in efficience way
+--> also DS define the relationship b/w different data
+
+--> DS is set of algorithms
+
+ 
+
+
+
+

@@ -1,0 +1,151 @@
+WEB DEVELOPMENT
+
+
+--> html , css , js is basic component or basic concept using which our basic website is construct
+--> html or htm ---> basic structures of webpage --> blue print --> markup lang --> predefine tag is used
+--> css --> used for abstract the mind of visitor --> gives beauty to webpage --> not a lang --> animation  , graphis , website responsiveness etc -> for design your website
+--> js --> lang --> scripting lang --> gives logic to website --> used for create dyanmic webpage --> 70% main work done by using js  --> brain of website
+
+without js website can work? same for css and same for js
+yes it can work but that website are static  --> not depend only one lang or component --> but those are a basic or require for creating a website
+
+--> how browser used for web development ?
+
+suppose we have source code for website ====> is render or complie or parsing or converting ===> viewable webpage or website
+
+--> what is emmet ?
+it's a vs code extention used for gives a suggestion when we create  a website ==> make coding easiar
+
+--> vs code is code editor --> 
+
+--> what is boiler plate code --> it's a basic code for web site which is extendible by using modify.  --> basic structure ==> basic blue print 
+
+--> types of link in website --> absolute link and relative links
+absolute link --> redirect to another website --> another server
+relative link --> redirect to another webpage of that only website  --> we can also say that same server 
+
+
+--> what is empty tag --> a tag without in closing tag is called empty tag  -> <br> <hr> 
+
+
+--> how many types of element is there in website ?
+--> 2 types of element is there 
+1 --> block element --> which is req whole horizontal space  --> occupy whole horizontal space
+2 --> inline element --> req only neccesary space
+
+
+.html or .htm ---> both extention is used for website 
+
+--> website follows the client server architrucute
+
+
+DNS --> convert your domian name to ip address and vise versa  -> each website have one ip add
+
+does js is object orianted programming ?
+--> yes js is oop but not implement a  classs that means there is not anytypes of class is used 
+--> we can create a object in js so js is oop lang
+--> we can used of constructor methods and by using which we can reused it
+
+                   
+--> js is interpreted lang --> high level lang -> scripting lang 
+--> server + clinet both side used js --> js is everywhere
+
+--> what is SEO?
+---> search engine optimization
+-> one tpes of concept used for give a rank of your website in google broswer 
+-->define that how your website effiecnce rather than other website
+--> by using meta tag or resnposive or diff keyword or efficency of website used for SEO
+--> SEO web design is the design and creation of a website that is optimized for search engines.
+--> SEO (or search engine optimization) is the practice of optimizing a website so that it ranks well on search engines
+
+--> SEO is one types of practices using which we can increase the rank of our website in google search
+
+
+for class . oprator
+for id # oprator
+
+for css ---> selector{css property : css value for that property}
+
+typs of css
+by using !important keyword in css we can increase the priority highest or override a css
+--> inline css  --> 1st priority -> as attributes using style att    
+--> internal css --> 2 priority -> style tag used and used into head part
+-> external css -> 3 priority  -> external .css file is import in html file using link tag
+
+types of selector in css 
+---> id sel , class sel , universal sel (* , body) , element sel , grouping sel , pruso sel , attribute selector
+
+diff way to gives color 
+--> by using name , hash value or rgb() function
+
+what is padding ---> it's used for give space between border and element  --> gives the internal space
+what is margin --> gives the external space for element
+
+pruso selector --> hover , visited , active all the special selector to perfom some task whenever some user attachment is done
+
+position types --> static , relative , sticky , fixed , absolute
+static --> bydafault 
+absolute --> relative to body of webpage
+relatice --> relative to parent div
+sticky --> when scroll div is fixed that part  -> fixed with webpage
+fixed --> when scroll then div is fixed with that positon and also visible --> fixed with body 
+z-index is used only with position element (z-index define which element is more visible over diff element are overlapped) default is static
+
+flex box ---> used for arrangment of lot of child div into parent div -> for responsive purpose lot's of used of this property
+
+what do you means by responsive design ?
+
+--> thats means by your website is adoptable in all different types of devices with high efficency
+--> for diff diff width your website is adjust according to widht and hight and visible more itractive to user
+
+@media quary is used for responsiveness also other term or factor is used
+
+
+what is js application?
+--> initially it's called live script
+--> client side validation
+--> create dyanmic webpage
+--> itreactive webpage
+--> for display date and time
+--> server side 
+--> event handle
+--> expection handle
+--> manage set and get cookies & localstore  --> by using js we can access localstorage and cookies of web browser
+--> api call 
+--> requst for data handling from frontend to backend (http req)
+
+
+what is dom?
+--> it's a document object model
+--> it's a tree like represantation of our webpage
+--> it's a one types of web api
+--> provide by js
+--> one types of dom api provide by js
+--> document is object of js
+--> webpage manipulation
+
+
+--> js is losslly data types define lang
+
+oprator in js --> arithmatic  , bitwise , logical , assignment , comparision
+
+js --> executed by google browser --> V8 complier of js 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
