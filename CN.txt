@@ -1,0 +1,80 @@
+CN 
+
+-> what is computer network?
+--> a computer network is a collection of interconnected device or computing device or digital device  which are communicate over the network.
+--> diff diff device sharing the resource over the network
+--> computer , printer , scanner , or other device are connected to each other
+
+what is internet ?
+--> internet is a network of network (interconnected network)
+--> collection of network
+
+types of computer network? 
+
+-> lan (local area network)  --> small device are interconnect --> used in collage or office
+-> pan (personal area network)  --> small device like mobile laptop , bluetuth are connected used in house
+-> man (metropolitan area network)  --> collection of lan (used in state level)
+-> wan (wide area network)    --> collection of interconnected man (used in netional level)
+
+what is network ?
+--> A network consists of two or more computers that are linked in order to share resources and communicate over the network
+
+--> in simple term if more then 2 device is connect and sharing some information or resouce over the network then we can said that this is network
+
+--> what is a different between hub , switch and router ?
+--> those all are a connecting device in com network
+--> by using those device the network is connected or device is conneceted 
+--> those all are bonding device
+--> those all are physical level device 
+
+hub --> connect 2 device or more  --> connect small device or computer  --> filtering is not possible  ---> data passed in form of bits
+switch --> connect 2 lan or more   --> connect small network   -> filtering is possible --> more effective then hub  --> data passed in form of frm
+router --> connect 2 network or more  --> connect large network  --> highly effective filtering possible  --> data passed in form of packet
+
+--> what is filtering in computer network?
+--> Packet filtering is the process of passing or blocking data packets at a network interface by a firewall based on source and destination addresses, ports or protocols.
+--> based on some predefine rules the those device is allow to access the network by using ip add or port or any keyword
+--> basic means that allow to access based on some conditon to access the network
+
+what is link ??
+
+==> it's a connection b/t devices (binding device)
+--> a link may be a wired or wireless linked b/w diff device
+--> wired connection may be used physical cables , hub or switch
+--> wireless connection may router or wireless access point
+
+what is node in network?
+--> it's a physical device which can send and recive a data or information
+
+what is backbone network?
+--> a backbone network is a network which is interconnect to diff part of network --> it's a main network which is responsible to handle whole network
+
+
+what is network topology ?
+--> the physical arrangement of a com device in a network is called network topology
+--> it's a arrangement of device in network
+
+diff types of topology is used in com network ?
+--> point to point topology
+--> mesh top..
+--> star top
+--> bus top
+--> ring top
+--> tree top
+--> hybrid top
+
+what is lan ?
+local area network
+--> it's contain small area 
+--> it may be wired or wiredless
+
+
+
+
+
+
+
+
+
+
+

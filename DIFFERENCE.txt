@@ -48,6 +48,9 @@ both are used for convert source code to machine code
 
    -> java is strick data types define lang
    -> js is looslly data types define lang
+  
+   --> java array contain similar types of value
+   --> js array contain diff types of value
 
 6 stack vs queue
 

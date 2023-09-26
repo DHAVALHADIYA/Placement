@@ -131,8 +131,89 @@ oprator in js --> arithmatic  , bitwise , logical , assignment , comparision
 
 js --> executed by google browser --> V8 complier of js 
 
+2 types of js --> internal js and external js
+internal js --> write into script tag
+external js --> write into seprate file
+-> js is write into body as well as in head tag
+--> always recommodate that js write into body tag--> so that loading is fast  --> reduce the error chances --> if we write js in head tag then it may happend that some html tag not render before js is apply to that element
+
+--> what is console ?
+console is algo js object by using which we can print the infor or message or error (print all in terminal)
+
+x**y = x^y
 
 
+---> we used backtick so than we can called a var in string  --> used for both string and variable
+example ---> `my name is ${name}`;
+
+what is escape seq charcator -> used for giving a space 
+
+main diff b/t let , var and const
+var has function level scope
+let has block level scope
+
+----> object is nothing but collection of many key value pairs
+  
+--> JS -> array contain difference types of value means collection of value are different types
+
+-> .(dot) oprator is used for access the all key value in object
+
+ ===> which are globle message box or popup boxs in java script?
+-> those are globally available for js
+
+--> alert()  --> return nothing --> gives alert message 
+--> confirm()  --> return true and false --> for the confirmation
+--> prompt()  -->  return value  --> for taking a input from user --> similar to input tag
+
+globle method  --> without any object we can called
+
+--> by using this user can itractive the webpage
+--> used for create a itractive webpage
+
+
+diff types of loops
+--> for each , for in (object) , for of (array)
+
+
+what is document ? 
+--> it's a root of DOM
+--> it's a java script object used to access a webpage by using we manipulate a webpage dynamically
+
+--> doc.getelementsbyclassname()  -> all the selected element is store into array
+
+--> queryselector()  --> used to access any types of element
+
+element.addeventlinstner("click" , () => {} ) --> we can add a event listner on any element
+
+--> what is timers in java script?
+timers object in js is a globle object of js
+--> settimeout()  -> perform some task when some time is trigger ---> run only onces  --> cleartimeout(id)
+--> setinterval()  --> perform some task regular based on some time interval ---> runs infinite time until don't stop clearinterval(id)
+--> setimmediate()  --> perform some task immediate after the actual program is executed --> onces time run  clearimmediate(id)
+
+all those method are return one id by using which we can delete or stop those method functionality
+
+let time = new Date();
+time is object of Date constructor
+
+--> arrow function ---> by using this we can reduce the lines of codes
+
+--> generate a random value b/t any range --> a + (b-a) * Math.random()
+
+==================================================================================
+
+what is JSON?
+
+JSON stand for java scipt and object notation
+
+--> json is a way to store and transfer a data over the network
+--> it's a data format 
+--> frontend to backend and bk to ft data is transfer in form of key value pair
+--> key and value both are in form of string
+--> similar to object
+
+JSON.stringify()  --> object is convert into json string 
+JSON.parse()  --> string/text is convert into object 
 
 
 
