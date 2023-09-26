@@ -139,3 +139,17 @@ both are used for convert source code to machine code
 --> primitive data types are immutable 
 --> non primitive dt are muttalbe
 
+
+11 ==> TCP/IP VS OSI
+
+==> it has 7 layer
+--> it has 5 layer
+
+--> not used nows a days but tcp/ip model is based on this model
+--> now a days most widely used network model
+
+==> highly based on functionality of each layer
+==> highly based on protocols and rules of each layer
+
+--> provide connectionless and connection oriented at transport layer
+--> TCP/IP model network layer only provides connectionless (IP) services.

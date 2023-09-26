@@ -3,11 +3,13 @@ CN
 -> what is computer network?
 --> a computer network is a collection of interconnected device or computing device or digital device  which are communicate over the network.
 --> diff diff device sharing the resource over the network
---> computer , printer , scanner , or other device are connected to each other
+--> computer , printer , scanner, switch or router or hub or firewall or other device are connected to each other
 
 what is internet ?
 --> internet is a network of network (interconnected network)
 --> collection of network
+--> one types of world wide web
+
 
 types of computer network? 
 
@@ -17,6 +19,7 @@ types of computer network?
 -> wan (wide area network)    --> collection of interconnected man (used in netional level)
 
 what is network ?
+  --> it's a connection between diff devices  and communication is done over the network     ============> by using ip network comm is done over the network
 --> A network consists of two or more computers that are linked in order to share resources and communicate over the network
 
 --> in simple term if more then 2 device is connect and sharing some information or resouce over the network then we can said that this is network
@@ -24,17 +27,20 @@ what is network ?
 --> what is a different between hub , switch and router ?
 --> those all are a connecting device in com network
 --> by using those device the network is connected or device is conneceted 
---> those all are bonding device
+--> those all are binding device
 --> those all are physical level device 
 
 hub --> connect 2 device or more  --> connect small device or computer  --> filtering is not possible  ---> data passed in form of bits
-switch --> connect 2 lan or more   --> connect small network   -> filtering is possible --> more effective then hub  --> data passed in form of frm
+switch --> connect 2 lan or more   --> connect small network   -> filtering is possible --> more effective then hub  --> data passed in form of frames
 router --> connect 2 network or more  --> connect large network  --> highly effective filtering possible  --> data passed in form of packet
 
 --> what is filtering in computer network?
 --> Packet filtering is the process of passing or blocking data packets at a network interface by a firewall based on source and destination addresses, ports or protocols.
 --> based on some predefine rules the those device is allow to access the network by using ip add or port or any keyword
 --> basic means that allow to access based on some conditon to access the network
+--> simple term that is one types of security gaurd
+--> which req is allow and which req is denied is based on filtering process
+
 
 what is link ??
 
@@ -45,10 +51,11 @@ what is link ??
 
 what is node in network?
 --> it's a physical device which can send and recive a data or information
+-=> it's a physical level devices 
 
 what is backbone network?
 --> a backbone network is a network which is interconnect to diff part of network --> it's a main network which is responsible to handle whole network
-
+--> one types of parent network which is care about interconnceted network
 
 what is network topology ?
 --> the physical arrangement of a com device in a network is called network topology
@@ -67,6 +74,55 @@ what is lan ?
 local area network
 --> it's contain small area 
 --> it may be wired or wiredless
+--> used on college or office
+
+
+
+what is routers ?
+--> those are connecting devices used over the network to connecting 2 or more then 2 network
+--> used for data packat filtering
+
+what is point to point network ?
+--> it's refer to physical connection between 2 nodes 
+--> nodes may be a com or scanner or server or anything physical devices
+--> it's a direct connection
+--> connection is must be  a physical
+
+--> may be not physical link is used
+example : remote and tv is connected by using wireless connection 
+
+---> what is OSI model ?
+--> OSI means open system interconnection
+==> it's a universal model based on computer network function
+--> all the function is define by OSI model 
+--> define all the functionality or function which is perform over the network
+--> gives basic idea about flow of process which is done over the network
+--> define the standard functionality of network layes
+
+it's has 7 layer and each layer is define the functionality itself
+
+--> applicaton layer  --> data
+--> presantation layer  --> data
+--> seasion layer  --> data
+--> transport layer --> segment , datagram
+--> network layer   --> packet
+--> data link layer   --> frames
+--> physical layer  --> bit
+
+===> what is anonymous FTP?
+==> by using which user can access a services of server without give identity to it 
+--> services is publicly available to all the user 
+===> suppose there is server and i am a browser and i want to access the services of that server than without giving my identity to server i can access the data of server
+
+
+
+what is TCP/IP model ?
+--> it's a new network model and based on OSI model
+each layer define the protocols where in osi each layer defie the functionality
+==> now everywhere com network is follow tcp/ip model
+
+=============> ip protocol is connection less protocol
+
 
 
 

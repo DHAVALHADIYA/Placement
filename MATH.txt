@@ -1,0 +1,43 @@
+----> find out a roots of equations 
+
+   roots = b +- root(b^2 - 4ac) / 2a
+
+--> current velocity is x 
+---> stream velocity is y 
+---> upstream veloctiy ===> x - y
+---> downstream velocity ==> x + y
+
+reciprocals root ===> inverse roots
+
+
+
+AP series --> +    ---> nth term Tn = a + (n-1) * d  -==? aerithmatic series 
+m times of m^th term ===> m * t(m);
+
+
+GP series --> *    ===> giometric series
+
+
+Find the number of zeroes at the end of 1090!  ===> 1090/5 + 218/5 + 43/5 + 8/5 = 270
+
+
+if number is divide by 11 then (sum of odd term - sum of even term) is also divide by 11
+
+
+The arithmetic mean (AM) simple= (x₁ + x₂ + x₃ + ... + xₙ) / n.
+
+The geometric mean (GM) = (x₁ · x₂ · x₃ · ... · xₙ)1/n.
+if 2 number x and y then = rootof(x*y)
+
+
+log 5 = log(10/2) = log 10 - log 2 = 1 - 0.230
+
+
+the radius of a circle is cm and length of one of its chords is cm.
+
+here the chords means ---> a line pass from 2 bindu of circle
+
+
+the distance between two point (x1,y1) and (x2 , y2) is d then d = rootof((x1-x2)^2 + (y1-y2)^2) 
+
+
