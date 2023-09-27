@@ -123,12 +123,95 @@ each layer define the protocols where in osi each layer defie the functionality
 
 =============> ip protocol is connection less protocol
 
+--> what is http protocol ? which port number is used ?
+--> Hypertext Transfer Protocol
+==> used port number 80
+--> allow for communication over the network
+--> it's a stateless protocol
+==> conncetionless
 
 
+--> http pro --> define the format of message and how message is transferd
+--> application protocol
+
+--> what is NAT ?
+=> network address translation
+--> it is used for translate the private ip add into public ip add and vise versa
+by using which we can effectively used the ip add --> bcz the length of ip add is 32 bit and number of user are lots ... to give each and every device unique ip add is not possible without net
 
 
+----------> can diff device have same ip add ?
+---> no normaly not possible 
+---> but by using a NAT device this is possible
 
 
+ipv4 --> 32 bit
+ipv6 --> 128 bit
+
+what is TCP ?
+transmision control protocol --> used in transport layer
+---> it's a connection orianted protocol
+--> used when communication is there between 2 system
+
+--> first of all connection is established then after the communication is done
+--> used for established the connection and maintain the connection b/w system
+--> reliable protocol (either 0% or 100% comm)  give gerenty that 100% data transfer
+
+-->
+
+
+what is UDP?
+user datagram protocol --> used in transport layer
+---> it's a connectionless protocol
+--> without create a connection or established a connection comm is done
+--> used when communication is there between 2 system
+-> less reialbe 
+
+
+what is firewall ?
+A firewall is a network security device, either hardware or software-based, which monitors all incoming and outgoing traffic and based on a defined set of security rules it accepts, rejects or drops that specific traffic. 
+Accept : allow the traffic Reject : block the traffic but reply with an “unreachable error” Drop : block the traffic with no reply A firewall establishes a barrier between secured internal networks and outside untrusted network, such as the Internet.
+
+internal network --- firewall ---- external network
+secure network <=====> firewall <====> unsecure network
+
+
+what is DOS attack ?
+--> denied of services
+--> one types of attack in which multiple req is occures on target machine or server so that authenticate used cannot access the services of server ---> mainly used for put down the reputation of company
+--> increace the overload on the server
+
+--> ASCII
+american standrad code for information iterchange
+
+
+what is mac add ?
+media access control
+==========> The physical address -- which is also called a media access control, or MAC, address -- identifies a device to other devices on the same local network. The internet address -- or IP address -- identifies the device globally. A network packet needs both addresses to get to its destination.
+
+without ip add the communication is done ?
+==> yes it is possible by using mac add in same network
+
+--> in local network(if all devices in same network) mac add is used for idenitfy a devices uniquely 
+
+---> but in internet or world ip add is req to identify uniqaly
+
+---> what is DNS ?
+domain name system 
+--> used for convert ip add into domain name and vise versa
+--> it's has a tree like structures in which all the process is done
+--> make our likes easy 
+--> mapping is done between ip add and domain name 
+
+req ===> goes to root server ==> conutry level server (.in , .edu, .com) ==> low level in which actual content is there 
+one resolver is used for reslove the actual req in DNS
+
+--> DHCP ==> dynamic host configuration protocols
+--> ICMP --> internet contol message protocols
+
+---> ping ---> it's a command or program to check that req is reached to the destination and it's agives the reply successfully
+
+==> ethernet is nothing but connect a device by physically using wired or cable
 
 
 

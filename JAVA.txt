@@ -224,10 +224,60 @@ each and every program has atleast one thread
 33 life cycle of thread 
 --> create , runnable , running , blocked , dead
 
-34 
+34 the next() method of iterator throws concurrentmodificationexception in java 
 
+35  Collections.unmodifiableList(list);  ==> The Collections.unmodifiableList() method in Java is used to create an unmodifiable view of the specified List. An unmodifiable list is a list that cannot be modified (elements cannot be added, removed, or changed), but the underlying original list can still be modified.
+ the unmodifiableList variable is an unmodifiable view of the mutableList. If you attempt to modify unmodifiableList, it will throw an UnsupportedOperationException. However, you can still modify the original mutableList.
 
+36 java.util  ====> package contains all the collection classes
 
+37 ConcurrentHashMap is a thread-safe implementation of the Map
+---> deadlock is there in it
 
+38 Java 5 ===> concurrent collection is introduced
 
+39 java 21 is new version of java ==> letest version of java
 
+40 Which of the following keywords is used for throwing exception manually? Explanation: “throw' 
+
+41 Which of these keywords must be used to monitor for exceptions? ==> try
+
+42  Exception handling is managed via 5 keywords – try, catch, throws, throw and finally.
+
+43 throw keyword is used for manually throw or generate error 
+
+44 if by using try block exception is already handle by catch block then not need to write another catch block ==> otherwise it will give an error
+
+45 Which of these is method for testing whether the specified element is a file or a directory? Explanation: isFile() 
+
+46 The clear() method of java. nio. ByteBuffer Class is used to clear this buffer
+
+47 for working with stream inputstream and outputstream classess is used 
+
+48 so hash code of null will always be 0
+
+49 hashmap you can put null value and it's hashcode is 0
+
+50 java hashmap , hashset is not syncronized
+
+51 print() and println() are defined under the class PrintStream
+
+52 The java.io package is used to handle input and output operations
+
+53 , streams are used for input and output operations.
+
+54  AWT stands for Abstract Window Toolkit.
+
+55 bydefault int var value is 0
+
+56 There are three properties in the Thread class related to priority: MAX_PRIORITY : The maximum value is 10, kown as the maximum priority of a thread. NORM_PRIORITY : The normal value is 5, known as the normal priority of a thread. MIN_PRIORITY : The minimum value is 1, known as the minimum priority of a thread.
+
+57 thread are indepenedent
+
+58  The instanceOf operator in java works on a simple is-a relationship.
+
+59 getChars() method copies the content of this string into a specified char array.
+
+60 StringBuffer is synchronized, meaning its methods are thread-safe and can be safely used in a multithreaded environment. On the other hand, StringBuilder is not synchronized, which makes it faster than StringBuffer, but it is not thread-safe and should not be used in a multithreaded environment
+
+61 There are three main types of variable scope in Java

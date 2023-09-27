@@ -153,3 +153,50 @@ both are used for convert source code to machine code
 
 --> provide connectionless and connection oriented at transport layer
 --> TCP/IP model network layer only provides connectionless (IP) services.
+
+
+12 TCP VS UDP
+
+--> connection - orieanted pro--
+--> connection less
+
+--> more reliable + less speed
+--> less reliable + high speed
+
+--> same path is used for packat
+--> diff path is used for packate
+
+--> in order data is access
+--> not in order data is access
+
+--> 100% data is deliver
+--> not garentty --> some packate may be loss
+
+--> ACK is there 
+--> not ACK is there
+
+==> resend the packate
+--> not possible in this
+
+--> file transfer , email
+--> Multimedia , online videos plateform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
