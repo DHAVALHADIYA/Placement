@@ -219,12 +219,10 @@ JSON.parse()  --> string/text is convert into object
 
 
 
-
-
-
-
-
-
+----> The very first task executed by a session enabled page is Check whether a valid session exists.
+--> The lifetime is specified in seconds, so if the cookie should live 1 hour, this directive should be set to 3600.
+-->  <? xml version = "1.0" ?>
+--> firefox ==>  It uses the Gecko rendering engine to display web pages 
 
 
  
