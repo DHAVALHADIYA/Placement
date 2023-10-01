@@ -1,0 +1,69 @@
+DBMS ::
+
+DBMS stand for database management system 
+--> dbms is used for store and manage a data into computer system.
+--> dbms is used for storing a data , manupilation of data and also used for orgenized data in structure or unstrucuter way.
+
+--> there are 2 types of dbms is there :
+--> 1 is nosql DBMS  --> non relational database --> mongodb , hbase , cassandra
+--> 2 SQL DBMS   --> relational database --> mysql , oracle
+
+
+2 write sql statement to create a table 
+
+--> CREATE TABLE TABLE_NAME ( id int NOTNULL , name varchar(50) , age number);
+
+
+3  what is foreign key ?
+
+--> this is a key which is define the relationship between different different relation or table in dbms
+
+in one table this key is refer as a primary key and that only key is refer in another table as a foreign key.
+
+--> this foreign key is linked between diff table 
+--> this key is a key which is used to link two tables toghether.
+
+
+4 difference between primary key and unique key ?
+
+primary key ---> table can have only one primary key --> null value cannot allow   --> you cannot change or delete the value of primary key
+unique key --> table can have multiple unique key  --> we can store one null value   --> you can change or delete the value of unique key
+
+
+5 what is the defference between delete , truncate , and drop ?
+
+---> delete --> command is used for delete a one or more row based on condition.
+--> truncate --> this command is used for delete the data of table not table is delete , schema of table is not deleted.
+--> drop --> this command is used for delete a tbale and database , schema is also removed.
+
+
+6 what is diffrent types of lang is availabe in dbms ?
+
+
+--> ddl --> data defination lang --> used for create table or database and define the schema. --> CREATE , DROP , ALTER , RENAME 
+--> DML --> data manipulation lang --> used for manupilation of data --> update , delete , insert
+--> DCL --> data control lang ---> command is used for define the control and permision lang on database or table --> grant , revoke 
+--> DQL --> data query lang --> used for access the data of table --> select
+
+7 what is the diff between union and union all ?
+--> ---> both are used between 2 or more tables.
+
+--> union --> duplicate rows is not allow when access a data from diff table 
+--> union all --> duplicate rows allow when access a data from diff table.
+example --> select id from dhaval union select id from dev.
+
+8 what is the ACID property in DBMS ?
+--> A - atomicity , c - consistancy , i - isolation , d - durability 
+
+--> atomicity --> relible transfer (either 100% or 0%)
+--> consistancy --> data must unique and identical or data must be contant 
+--> isolation --> transaction is done indepenetant , multiple tranaction is happed without interfir in one another , one transction is invisible to another 
+--> durability --> any changes is done then it will be change permanant in database,  after the commit 
+
+9 what are diff types of relationship in dbms ?
+one to one 
+one to many 
+many to one 
+many to many
+
+ 
